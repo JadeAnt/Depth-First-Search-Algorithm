@@ -9,9 +9,9 @@ struct Vertex{
 
 //stack functions
 class Stack{
-  public:
-  
   private:
+  
+  public:
     void push();
     char pop();
     void top();
