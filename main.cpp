@@ -2,6 +2,8 @@
 
 using namespace std;
 
+#define MAX_SIZE 30
+
 struct Vertex{
   char label;
   bool visited;
@@ -10,7 +12,8 @@ struct Vertex{
 //stack functions
 class Stack{
   private:
-  
+    int stack[MAX_SIZE];
+    int top = -1;
   public:
     void push();
     char pop();
